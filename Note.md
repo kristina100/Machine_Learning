@@ -159,7 +159,7 @@ $$
 
 函数形状：
 
-![](picture/%E8%A5%BF%E7%93%9C%E4%B9%A6/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202021-07-14%20094145.png)
+![](https://raw.githubusercontent.com/kristina100/Machine_Learning/master/picture/屏幕截图 2021-07-14 094145.png)
 
 
 
@@ -192,7 +192,7 @@ $$
 
 提升不平衡分类准确率的问题的方法：采样，阈值移动，调整代价或权重。
 
-![](picture/%E8%A5%BF%E7%93%9C%E4%B9%A6/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202021-07-14%20092516.png)
+![]https://raw.githubusercontent.com/kristina100/Machine_Learning/master/picture/屏幕截图 2021-07-14 092516.png)
 
 
 
@@ -227,7 +227,7 @@ $$
 
 
 
-![](picture/%E8%A5%BF%E7%93%9C%E4%B9%A6/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202021-07-14%20103126.png)
+![](https://raw.githubusercontent.com/kristina100/Machine_Learning/master/picture/屏幕截图 2021-07-14 103126.png)
 
 
 
@@ -243,7 +243,7 @@ Lasso的几何解释：
 
 以两个变量为例，标准线性回归的cost function还是用二维平面的等值线表示，而约束条件则与岭回归的圆不同，LASSO的约束条件用方形表示，如下图:
 
-![](picture/%E8%A5%BF%E7%93%9C%E4%B9%A6/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202021-07-14%20103422.png)
+![](https://raw.githubusercontent.com/kristina100/Machine_Learning/master/picture/屏幕截图 2021-07-14 103422.png)
 
 相比圆，方形的顶点更容易与抛物面相交，顶点意味着对应多个系数为零，可以很好的筛选变量。
 
@@ -286,7 +286,7 @@ J越大越好。
 
   O v R的优点是，分类器个数少，存储开销和测试时间比OvO少。缺点是，类别很多时，训练时间长。
 
-<img src="picture/%E8%A5%BF%E7%93%9C%E4%B9%A6/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20210714090310.jpg" style="zoom: 25%;" />
+![](https://raw.githubusercontent.com/kristina100/Machine_Learning/master/picture/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20210714090310.jpg)
 
 #### *EOOC技术
 
