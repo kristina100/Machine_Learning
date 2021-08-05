@@ -5,11 +5,7 @@
 # contact: kristinaNFQ@163.com
 # MyBlog: kristina100.github.io
 # -*- coding:UTF-8 -*-
-'''
-Created on May 20, 2017
 
-@author: DX
-'''
 # Import All the required packages from sklearn
 import numpy as np
 from sklearn import model_selection

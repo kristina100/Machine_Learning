@@ -5,13 +5,9 @@
 # contact: kristinaNFQ@163.com
 # MyBlog: kristina100.github.io
 # -*- coding:UTF-8 -*-
-'''
-Created on 03-Oct-2017
 
-@author: DX
-'''
 import pprint
-from Chapter_06 import RegressionTrees as rg
+import RegressionTrees as rg
 import matplotlib.pyplot as plt
 import numpy as np
 

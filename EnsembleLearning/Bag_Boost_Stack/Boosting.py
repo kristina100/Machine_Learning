@@ -5,11 +5,7 @@
 # contact: kristinaNFQ@163.com
 # MyBlog: kristina100.github.io
 # -*- coding:UTF-8 -*-
-'''
-Created on May 22, 2017
 
-@author: DX
-'''
 # Import All the required packages from sklearn
 from sklearn import model_selection
 from sklearn.datasets import load_iris

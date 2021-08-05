@@ -7,12 +7,6 @@
 # -*- coding:UTF-8 -*-
 
 
-'''
-Created on 23-Oct-2017
-
-@author: aii32199
-'''
-
 # First XGBoost model for Pima Indians dataset
 
 # Load the required libraries

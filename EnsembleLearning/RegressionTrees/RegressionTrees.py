@@ -5,11 +5,7 @@
 # contact: kristinaNFQ@163.com
 # MyBlog: kristina100.github.io
 # -*- coding:UTF-8 -*-
-'''
-Created on 03-Oct-2017
 
-@author: DX
-'''
 import numpy as np
 import sys
 

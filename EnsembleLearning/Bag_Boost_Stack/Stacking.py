@@ -5,21 +5,13 @@
 # contact: kristinaNFQ@163.com
 # MyBlog: kristina100.github.io
 # -*- coding:UTF-8 -*-
-'''
-Created on 24-May-2017
-
-@author: aii32199
-'''
 
 from sklearn import datasets
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.naive_bayes import GaussianNB
 from sklearn.neighbors import KNeighborsClassifier
-from mlxtend.classifier import StackingClassifier
-from sklearn import cross_validation
 import numpy as np
-from sklearn.tree import DecisionTreeClassifier
 
 iris = datasets.load_iris()
 X, y = iris.data[:, 1:3], iris.target
@@ -60,25 +52,3 @@ final = lr.predict(f)
 
 acc4 = CalculateAccuracy(y, final)
 print("accuracy from Stacking: " + str(acc4))
-
-# accuracy from KNN: 96.66666666666667
-# accuracy from Random Forest: 94.66666666666667
-# accuracy from Naive Bays: 92.0
-# accuracy from Stacking: 97.33333333333333
-
-# sclf = StackingClassifier(classifiers=[clf1, clf2, clf3],
-#                           meta_classifier=lr)
-#
-# print('3-fold cross validation:\n')
-#
-# for clf, label in zip([clf1, clf2, clf3, sclf],
-#                       ['KNN',
-#                        'Random Forest',
-#                        'Naive Bayes',
-#                        'StackingClassifier']):
-#
-#     scores = cross_validation.cross_val_score(clf, X, y,
-#                                               cv=3, scoring='accuracy')
-#     print("Accuracy: %0.2f (+/- %0.2f) [%s]"
-#           % (scores.mean(), scores.std(), label))
-
